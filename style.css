@@ -1,0 +1,61 @@
+body{
+
+background-color:rgba(225,225,225,1);
+
+}
+a{
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+}
+#head{
+	background-image:linear-gradient(rgba(255,0,0,1),rgba(0,0,255,1));
+	
+}
+#head-table{
+
+	width:100%;
+	text-align:center;
+	color:rgba(255,255,255,1);
+		position:relative;
+}
+
+#head-table-tr{
+	
+}
+#head-table-tr-td-plus{
+	background-color:rgba(255,255,255,1);
+	color:rgba(255,0,0,1);
+
+}
+
+
+#body-covid-19-info-img{
+	width:40%;	
+	float:right;
+}
+#body-covid-19-info-span{
+	float:left;
+
+}
+
+#body-covid-19-info-span-1{
+
+} #body-covid-19-info-span-2{
+
+} #body-covid-19-info-span-3{
+
+} #body-covid-19-info-span-4{
+	
+} #body-covid-19-info-span-5{
+	
+} #body-covid-19-info-span-6{
+
+} #body-covid-19-info-span-7{
+
+} #body-covid-19-info-span-8{
+	
+} #body-covid-19-info-span-9{
+
+} #body-covid-19-info-span-10{
+
+}
