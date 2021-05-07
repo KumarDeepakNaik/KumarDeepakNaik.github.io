@@ -59,3 +59,21 @@ a{
 } #body-covid-19-info-span-10{
 
 }
+
+/*Face Mask Info*/
+
+
+#body-face-mask-info{
+	
+	
+}
+
+#body-face-mask-info-img{
+	width:40%;
+	float:right;
+}
+
+#body-face-mask-info-span{
+	
+	float:left;
+}
