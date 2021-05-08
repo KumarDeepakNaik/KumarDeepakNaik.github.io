@@ -27,53 +27,103 @@ a{
 	color:rgba(255,0,0,1);
 
 }
+/* body start*/
+#body-covid-19-info{
+	width:100%;
+
+	
+}
+#body-covid-19-info::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#body-covid-19-info-div-left{
+	display:inline-block;
+	float:left;
+width:50%;
+}
 
 
-#body-covid-19-info-img{
+#body-covid-19-info-div-right{
+		display:inline-block;
 	width:40%;	
 	float:right;
 }
-#body-covid-19-info-span{
-	float:left;
-
+#body-covid-19-info-div-right-img{
+	width:100%;	
 }
 
-#body-covid-19-info-span-1{
-
-} #body-covid-19-info-span-2{
-
-} #body-covid-19-info-span-3{
-
-} #body-covid-19-info-span-4{
-	
-} #body-covid-19-info-span-5{
-	
-} #body-covid-19-info-span-6{
-
-} #body-covid-19-info-span-7{
-
-} #body-covid-19-info-span-8{
-	
-} #body-covid-19-info-span-9{
-
-} #body-covid-19-info-span-10{
-
-}
 
 /*Face Mask Info*/
 
 
 #body-face-mask-info{
-	
+width:100%;	
+}
+#body-face-mask-info::after{
+	content:"";
+	clear:both;
+	display:table;
 	
 }
 
-#body-face-mask-info-img{
+#body-face-mask-info-div-left{
+	width:50%;
+	float:left;
+}
+#body-face-mask-info-div-right{
+	width:40%;
+	float:right;
+}
+#body-face-mask-info-div-right-img{
+	width:100%;
+}
+
+
+/*Hand Hygiene Info*/
+
+
+#body-hand-hygiene-info{
+	
+width:100%;
+
+}
+#body-hand-hygiene-info::after{
+	content:"";
+	clear:both;
+	display:table;
+	
+}
+
+#body-hand-hygiene-info-span{
+	float:left;
+
+}
+
+#body-hand-hygiene-info-img{
 	width:40%;
 	float:right;
 }
 
-#body-face-mask-info-span{
+/*Social Distancing Info*/
+
+
+#body-social-distancing-info{
+	width:100%;
 	
-	float:left;
+}
+#body-social-distancing-info::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+#body-social-distancing-info-img{
+	width:40%;
+	float:right;
+}
+
+#body-social-distancing-info-span{
+	
+
 }
