@@ -9,7 +9,10 @@ a{
 }
 #head{
 	background-image:linear-gradient(rgba(255,0,0,1),rgba(0,0,255,1));
-	
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
 }
 #head-table{
 
@@ -27,7 +30,11 @@ a{
 	color:rgba(255,0,0,1);
 
 }
-/* body start*/
+/* body start ------------------------------------------------------------------------------------------------*/
+#body{
+margin-top:110px;	
+}
+
 #body-covid-19-info{
 	width:100%;
 
@@ -96,14 +103,18 @@ width:100%;
 	
 }
 
-#body-hand-hygiene-info-span{
+#body-hand-hygiene-info-div-left{
 	float:left;
-
+width:50%;
 }
 
-#body-hand-hygiene-info-img{
+#body-hand-hygiene-info-div-right{
 	width:40%;
 	float:right;
+}
+
+#body-hand-hygiene-info-div-right-img{
+	width:100%;
 }
 
 /*Social Distancing Info*/
@@ -118,12 +129,17 @@ width:100%;
 	clear:both;
 	display:table;
 }
-#body-social-distancing-info-img{
+
+
+#body-social-distancing-info-div-left{
+		width:50%;
+	float:left;
+}
+#body-social-distancing-info-div-right{
 	width:40%;
 	float:right;
 }
 
-#body-social-distancing-info-span{
-	
-
+#body-social-distancing-info-div-right-img{
+	width:100%;
 }
