@@ -8,6 +8,7 @@
 	text-align:center;
 	color:rgba(255,255,255,1);
 	transition: margin-top 2s;
+	font-size:small;
 }
 
 #head-div-open{

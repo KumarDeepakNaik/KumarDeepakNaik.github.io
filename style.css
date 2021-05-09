@@ -31,7 +31,34 @@ a{
 /* body start ------------------------------------------------------------------------------------------------*/
 #body{
 margin-top:110px;	
+background-color:rgba(255,255,255,1);
 }
+
+
+/*Body Theme*/
+
+
+#body-theme-dark{
+display:inline;
+	background-color:rgba(0,0,0,1);
+	color:rgba(255,255,255,1);
+	border-width:2px;
+	border-style:solid;
+	border-color:rgba(0,255,255,1);
+	
+}
+
+
+#body-theme-light{
+	display:none;
+
+	background-color:rgba(255,255,255,1);
+	color:rgba(0,0,0,1);
+	border-width:2px;
+	border-style:solid;
+	border-color:rgba(0,255,255,1);
+}
+
 
 #body-covid-19-info{
 	width:100%;
