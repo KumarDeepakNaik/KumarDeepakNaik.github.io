@@ -46,10 +46,21 @@ function increaseFontSize(){
 	var body= document.getElementById("body");
 	body.style.fontSize="large";
 	//alert("Font Size Set as Large");
+	
+	var head_table_tr_td_plus_2=document.getElementById("head-table-tr-td-plus-2");
+	head_table_tr_td_plus_2.style.color="rgba(0,255,0,1)";
+	var head_table_tr_td_plus_1=document.getElementById("head-table-tr-td-plus-1");
+	head_table_tr_td_plus_1.style.color="rgba(255,0,0,1)";
 }
 
 function decreaseFontSize(){
 	var body= document.getElementById("body");
 	body.style.fontSize="medium";
 		//alert("Font Size Set as Normal");
+		var head_table_tr_td_plus_1=document.getElementById("head-table-tr-td-plus-1");
+	head_table_tr_td_plus_1.style.color="rgba(0,255,0,1)";
+	
+	var head_table_tr_td_plus_2=document.getElementById("head-table-tr-td-plus-2");
+	head_table_tr_td_plus_2.style.color="rgba(255,0,0,1)";
+		
 }

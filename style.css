@@ -23,7 +23,12 @@ a{
 #head-table-tr{
 	
 }
-#head-table-tr-td-plus{
+#head-table-tr-td-plus-1{
+	background-color:rgba(255,255,255,1);
+	color:rgba(255,0,0,1);
+
+}
+#head-table-tr-td-plus-2{
 	background-color:rgba(255,255,255,1);
 	color:rgba(255,0,0,1);
 
