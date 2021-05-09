@@ -24,7 +24,8 @@ function darkTheme(){
 	var body_theme_dark=document.getElementById("body-theme-dark");
 	body_theme_dark.style.display="none";
 	var body_theme_dark=document.getElementById("body-theme-light");
-	body_theme_dark.style.display="inline";
+	body_theme_dark.style.display="inline-block";
+	
 }
 
 function lightTheme(){
@@ -32,7 +33,7 @@ function lightTheme(){
 	body.style.backgroundColor="rgba(255,255,255,1)";
 	body.style.color="rgba(0,0,0,1)";
 	var body_theme_dark=document.getElementById("body-theme-dark");
-	body_theme_dark.style.display="inline";
+	body_theme_dark.style.display="inline-block";
 	var body_theme_dark=document.getElementById("body-theme-light");
 	body_theme_dark.style.display="none";
 	
