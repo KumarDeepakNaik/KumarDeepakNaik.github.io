@@ -38,3 +38,18 @@ function lightTheme(){
 	body_theme_dark.style.display="none";
 	
 }
+
+
+/*font size ---------------------------------------------*/
+
+function increaseFontSize(){
+	var body= document.getElementById("body");
+	body.style.fontSize="large";
+	alert("Font Size Set as Large");
+}
+
+function decreaseFontSize(){
+	var body= document.getElementById("body");
+	body.style.fontSize="medium";
+		alert("Font Size Set as Normal");
+}
