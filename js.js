@@ -45,11 +45,11 @@ function lightTheme(){
 function increaseFontSize(){
 	var body= document.getElementById("body");
 	body.style.fontSize="large";
-	alert("Font Size Set as Large");
+	//alert("Font Size Set as Large");
 }
 
 function decreaseFontSize(){
 	var body= document.getElementById("body");
 	body.style.fontSize="medium";
-		alert("Font Size Set as Normal");
+		//alert("Font Size Set as Normal");
 }
