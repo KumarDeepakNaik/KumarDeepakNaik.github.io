@@ -8,18 +8,16 @@ a{
 	color:rgba(255,255,255,1);
 }
 #head{
-	background-image:linear-gradient(rgba(255,0,0,1),rgba(0,0,255,1));
-	position:fixed;
-	width:100%;
-	top:0;
-	left:0;
+
 }
 #head-table{
-
+	background-image:linear-gradient(rgba(255,0,0,1),rgba(0,0,255,1));
+	position:fixed;
+	top:0;
+	left:0;
 	width:100%;
 	text-align:center;
 	color:rgba(255,255,255,1);
-		position:relative;
 }
 
 #head-table-tr{
